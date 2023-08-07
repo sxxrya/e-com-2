@@ -1,0 +1,412 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.navbar-nav a {
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+}
+
+.navbar-nav a:hover {
+    color: #fff;
+}
+
+/*----------------hero section----------------*/
+
+.hero {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.discount-deal h2 {
+    font-size: 60px;
+}
+
+.main-hero {
+    background-color: black;
+    color: white;
+}
+
+.hero-images {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-img1 {
+    width: 270px;
+    margin: 2px;
+}
+
+.hero-img2 {
+    width: 270px;
+    margin: 2px;
+}
+
+.hero-button a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.hero-button {
+    border: none;
+    font-weight: 700;
+    width: 100px;
+}
+
+@media (max-width : 1000px) {
+
+    .hero {
+        padding: 120px 0 80px 0;
+        text-align: left;
+    }
+
+    .discount-deal h2 {
+        font-size: 60px;
+    }
+
+    .discount-deal p {
+        font-size: 20px;
+    }
+
+    .hero-images {
+        display:none;
+    }
+
+    .discount-deal {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-button {
+        border: none;
+        font-weight: 700;
+        font-size: 13px;
+        width: 100px;
+
+    }
+
+}
+
+@media (max-width : 700px) {
+
+    .hero {
+        padding: 120px 0 80px 0;
+        text-align: left;
+    }
+
+    .discount-deal h2 {
+        font-size: 60px;
+        padding: 5px 0;
+    }
+
+    .discount-deal {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-images {
+        display:none;
+    }
+
+    .hero-button {
+        border: none;
+        font-weight: 700;
+        font-size: 10px;
+        width: 100px;
+    }
+
+    .container p {
+        font-size: 20px;
+    }
+
+}
+
+.car{
+    margin: 20px 0;
+}
+
+
+/*----------------end hero section----------------*/
+
+/*-------------------carousel slider-------------------*/
+
+.home-slider-1,
+.home-slider-2 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    position: relative;
+}
+
+.home-slider-1 {
+    background-image: url(images/nwecar1.jpg);
+}
+
+.home-slider-2 {
+    background-image: url(images/newcar2.jpg);
+}
+
+.hs-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-250%, 0);
+}
+
+.hs-2 {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(180%, 0);
+}
+
+.home-slider-text button {
+    border: none;
+}
+
+.home-slider-text button a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+/*-------------------card scroll ( new arraival)----------------------*/
+.newarraival {
+
+    margin-bottom: 30px;
+}
+
+.new-arraival-container {
+
+    display: flex;
+    min-height: 480px;
+    overflow-x: auto;
+
+}
+
+.new-arr-item {
+    padding: 5px;
+    max-width: 100%;
+    height: 100px;
+    text-align: center;
+    margin-right: 2px;
+}
+
+.card {
+    width: 200px;
+}
+
+.card-body p {
+
+    font-size: 13px;
+    text-align: left;
+    font-weight: 600;
+    height: 80px;
+}
+
+.card-button {
+    text-align: center;
+    border: none;
+    background-color: rgb(221, 195, 47);
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.card img {
+    width: 200px;
+    height: 300px;
+    transition: .5s;
+}
+
+.img-hover:hover img {
+    scale: 150%;
+}
+
+.img-hover {
+    overflow: hidden;
+}
+
+/*-------------------men scroll----------------------*/
+.mencollection {
+    margin-bottom: 30px;
+}
+
+.men-collection-container {
+
+    display: flex;
+    min-height: 480px;
+    overflow-x: auto;
+
+}
+
+.men-collection-item {
+    padding: 5px;
+    max-width: 100%;
+    height: 100px;
+    text-align: center;
+    margin-right: 2px;
+}
+
+.card {
+    width: 200px;
+}
+
+.card-body p {
+
+    font-size: 13px;
+    text-align: left;
+    font-weight: 600;
+    height: 80px;
+}
+
+.men-button {
+    text-align: center;
+    border: none;
+    background-color: rgb(221, 195, 47);
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.card img {
+    width: 200px;
+    height: 300px;
+    transition: .5s;
+}
+
+.img-hover:hover img {
+    scale: 150%;
+}
+
+.img-hover {
+    overflow: hidden;
+}
+
+
+/*-------------------men scroll----------------------*/
+.womencollection {
+    margin-bottom: 30px;
+}
+
+.women-collection-container {
+
+    display: flex;
+    min-height: 480px;
+    overflow-x: auto;
+
+}
+
+.women-collection-item {
+    padding: 5px;
+    max-width: 100%;
+    height: 100px;
+    text-align: center;
+    margin-right: 2px;
+}
+
+.card {
+    width: 200px;
+}
+
+.card-body p {
+
+    font-size: 13px;
+    text-align: left;
+    font-weight: 600;
+    height: 80px;
+}
+
+.women-button {
+    text-align: center;
+    border: none;
+    background-color: rgb(221, 195, 47);
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.card img {
+    width: 200px;
+    height: 300px;
+    transition: .5s;
+}
+
+.img-hover:hover img {
+    scale: 150%;
+}
+
+.img-hover {
+    overflow: hidden;
+}
+
+/*----------------footer--------------*/
+
+.footer {
+    background: #000;
+    padding: 30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+}
+
+.footer .row {
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: gray;
+    font-size: 0.8em;
+}
+
+.footer .row a {
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+}
+
+.footer .row a:hover {
+    color: #fff;
+}
+
+.footer .row ul {
+    width: 100%;
+}
+
+.footer .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.footer-text{
+    text-align: center;
+    color: gray;
+    font-size: 14px;
+    transition: 0.5s;
+}
+.footer-text:hover{
+    color: #fff;
+}
+
+@media (max-width:720px) {
+    .footer {
+        text-align: left;
+        padding: 5% 0;
+    }
+
+    .footer .row ul li {
+        display: block;
+        margin: 10px 0px;
+        text-align: left;
+    }
+
+    .footer-text{
+        text-align: left;
+    }
+}

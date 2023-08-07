@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--------------navbar-------------->
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">Wizard</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Produts</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="" class="dropdown-item">shoe</a></li>
+                            <li><a href="" class="dropdown-item">watch</a></li>
+                            <li><a href="" class="dropdown-item">bags</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" role="button"
+                            data-bs-toggle="dropdown">categories</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#newarraival" class="dropdown-item">sales</a></li>
+                            <li><a href="#men" class="dropdown-item">men</a></li>
+                            <li><a href="#women" class="dropdown-item">women</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--------------end navbar------------------->
+
+    <!--------------hero content----------------->
+
+
+    <section class="main-hero">
+        <div class="container hero">
+            <div>
+                <div class="discount-deal">
+                    <h2>DISCOUNTS,</h2>
+                    <h2>DEALS, </h2>
+                    <h2>OFFERS</h2>
+                </div>
+                <p>COOLEST STYLES AT HOTTEST PRICES</p>
+                <div>
+                    <span><button class="hero-button"><a href="#">for men</a></button></span>
+                    <span><button class="hero-button"><a href="#">for women</a></button></span>
+                </div>
+            </div>
+
+            <div class="hero-images">
+                <img src="images/hero1.jpeg" alt="" class="hero-img1 img-fluid">
+                <img src="images/hero2.jpeg" alt="" class="hero-img2 img-fluid">
+            </div>
+        </div>
+    </section>
+
+    <!--------------end hero content----------------->
+
+    <!--------------corousel slide--------------------->
+
+    <section class="car">
+        <div class="container">
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item home-slider-1 active" data-bs-interval="2000">
+                        <div class="home-slider-1">
+                            <div class="home-slider-text hs-1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item home-slider-2" data-bs-interval="2000">
+                        <div class="home-slider-2">
+                            <div class="home-slider-text hs-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!--------------end carousel slide------------------->
+
+
+    <!--------------steal deals------------------------>
+
+    <section id="newarraival">
+        <div class="newarraival">
+            <div class="container">
+                <h3>steal deals</h3>
+            </div>
+            <div class="container new-arraival-container">
+                <div class="new-arr-item">
+                    <div class="card">
+                        <div class="img-hover">
+                            <img src="images/newarr1.jpeg" class="card-img-top" alt="no image">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-price">Oversized patch Motocross Jackets
+                                <br>
+                                ₹3,999
+                            </p>
+                            <a href="#"><span><button class="card-button">Buy</button></span></a>
+                            <a href="#"><span><button class="card-button">Add to Cart</button></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="new-arr-item">
+                    <div class="card">
+                        <div class="img-hover">
+                            <img src="images/newarr2.jpeg" class="card-img-top" alt="no image" loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-price">Canvas Cargo Pants
+                                <br>
+                                ₹2,999
+                            </p>
+                            <a href="#"><span><button class="card-button">Buy</button></span></a>
+                            <a href="#"><span><button class="card-button">Add to Cart</button></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="new-arr-item">
+                    <div class="card">
+                        <div class="img-hover">
+                            <img src="images/newarr3.jpeg" class="card-img-top" alt="no image" loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-price">Canvas Hooded Jacket
+                                <br>
+                                ₹1,599
+                            </p>
+                            <a href="#"><span><button class="card-button">Buy</button></span></a>
+                            <a href="#"><span><button class="card-button">Add to Cart</button></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="new-arr-item">
+                    <div class="card">
+                        <div class="img-hover">
+                            <img src="images/newarr4.jpeg" class="card-img-top" alt="no image" loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-price">Burnout Stripe Polo Shirt
+                                <br>
+                                ₹499
+                            </p>
+                            <a href="#"><span><button class="card-button">Buy</button></span></a>
+                            <a href="#"><span><button class="card-button">Add to Cart</button></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="new-arr-item">
+                    <div class="card">
+                        <div class="img-hover">
+                            <img src="images/newarr5.jpeg" class="card-img-top" alt="no image" loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-price">Double Knee Pants
+                                <br>
+                                ₹1,499
+                            </p>
+                            <a href="#"><span><button class="card-button">Buy</button></span></a>
+                            <a href="#"><span><button class="card-button">Add to Cart</button></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="new-arr-item">
+                    <div class="card">
+                        <div class="img-hover">
+                            <img src="images/newarr6.jpeg" class="card-img-top" alt="no image" loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-price">Oversized patch Motocross Jackets
+                                <br>
+                                ₹3,999
+                            </p>
+                            <a href="#"><span><button class="card-button">Buy</button></span></a>
+                            <a href="#"><span><button class="card-button">Add to Cart</button></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="new-arr-item">
+                    <div class="card">
+                        <div class="img-hover">
+                            <img src="images/newarr7.jpeg" class="card-img-top" alt="no image" loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-price">Croped Quater-Zip Sweatshit
+                                <br>
+                                ₹999
+                            </p>
+                            <a href="#"><span><button class="card-button">Buy</button></span></a>
+                            <a href="#"><span><button class="card-button">Add to Cart</button></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="new-arr-item">
+                    <div class="card">
+                        <div class="img-hover">
+                            <img src="images/newarr8.jpeg" class="card-img-top" alt="no image" loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-price">Oversized patch Motocross Jackets
+                                <br>
+                                ₹3900
+                            </p>
+                            <a href="#"><span><button class="card-button">Buy</button></span></a>
+                            <a href="#"><span><button class="card-button">Add to Cart</button></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="new-arr-item">
+                    <div class="card">
+                        <div class="img-hover">
+                            <img src="images/newarr9.jpeg" class="card-img-top" alt="no image" loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-price">Cargo Short
+                                <br>
+                                ₹799
+                            </p>
+                            <a href="#"><span><button class="card-button">Buy</button></span></a>
+                            <a href="#"><span><button class="card-button">Add to Cart</button></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-----------------------------end steal deal-------------------------->
+
+    <!-----------------------------MEN SECTION-------------------------->
+    <section id="men">
+        <div class="mencollection">
+            <div class="container">
+                <h3>men collections</h3>
+            </div>
+            <div class="container men-collection-container">
+                <div class="men-collection-item">
+                    <div class="card">
+                        <div class="img-hover">
+                            <img src="images/men1.jpg" class="card-img-top" alt="no image" loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-price">blue shirt
+                                <br>
+                                ₹999
+                            </p>
+                            <a href="#"><span><button class="men-button">Buy</button></span></a>
+                            <a href="#"><span><button class="men-button">Add to Cart</button></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="men-collection-item">
+                    <div class="card">
+                        <div class="img-hover">
+                            <img src="images/men2.jpg" class="card-img-top" alt="no image" loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-price">slim fit men
+                                <br>
+                                ₹999
+                            </p>
+                            <a href="#"><span><button class="men-button">Buy</button></span></a>
+                            <a href="#"><span><button class="men-button">Add to Cart</button></span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="men-collection-item">
+                    <div class="card">
+                        <div class="img-hover">
+                            <img src="images/men3.jpg" class="card-img-top" alt="no image" loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-price">white relaxed fit
+                                <br>
+                                ₹799
+                            </p>
+                            <a href="#"><span><button class="men-button">Buy</button></span></a>
+                            <a href="#"><span><button class="men-button">Add to Cart</button></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="men-collection-item">
+                    <div class="card">
+                        <div class="img-hover">
+                            <img src="images/men4.jpg" class="card-img-top" alt="no image" loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-price">brown cargo
+                                <br>
+                                ₹1,499
+                            </p>
+                            <a href="#"><span><button class="men-button">Buy</button></span></a>
+                            <a href="#"><span><button class="men-button">Add to Cart</button></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="men-collection-item">
+                    <div class="card">
+                        <div class="img-hover">
+                            <img src="images/men5.jpg" class="card-img-top" alt="no image" loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-price">t-shirt
+                                <br>
+                                ₹499
+                            </p>
+                            <a href="#"><span><button class="men-button">Buy</button></span></a>
+                            <a href="#"><span><button class="men-button">Add to Cart</button></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="men-collection-item">
+                    <div class="card">
+                        <div class="img-hover">
+                            <img src="images/men6.jpg" class="card-img-top" alt="no image" loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-price">pimk relaxed fit
+                                <br>
+                                ₹899
+                            </p>
+                            <a href="#"><span><button class="card-button">Buy</button></span></a>
+                            <a href="#"><span><button class="card-button">Add to Cart</button></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-----------------------------WOMEN SECTION-------------------------->
+
+    <section id="women">
+        <div class="womencollection">
+            <div class="container">
+                <h3>women collections</h3>
+            </div>
+            <div class="container women-collection-container">
+                <div class="women-collection-item">
+                    <div class="card">
+                        <div class="img-hover">
+                            <img src="images/women1.jpg" class="card-img-top" alt="no image" loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-price">floral printed
+                                <br>
+                                ₹699
+                            </p>
+                            <a href="#"><span><button class="women-button">Buy</button></span></a>
+                            <a href="#"><span><button class="women-button">Add to Cart</button></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="women-collection-item">
+                    <div class="card">
+                        <div class="img-hover">
+                            <img src="images/women2.jpg" class="card-img-top" alt="no image" loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-price">floral printed
+                                <br>
+                                ₹699
+                            </p>
+                            <a href="#"><span><button class="women-button">Buy</button></span></a>
+                            <a href="#"><span><button class="women-button">Add to Cart</button></span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="women-collection-item">
+                    <div class="card">
+                        <div class="img-hover">
+                            <img src="images/women3.jpg" class="card-img-top" alt="no image" loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-price">floral printed
+                                <br>
+                                ₹699
+                            </p>
+                            <a href="#"><span><button class="women-button">Buy</button></span></a>
+                            <a href="#"><span><button class="women-button">Add to Cart</button></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="women-collection-item">
+                    <div class="card">
+                        <div class="img-hover">
+                            <img src="images/women4.jpg" class="card-img-top" alt="no image" loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-price">floral printed
+                                <br>
+                                ₹499
+                            </p>
+                            <a href="#"><span><button class="women-button">Buy</button></span></a>
+                            <a href="#"><span><button class="women-button">Add to Cart</button></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="women-collection-item">
+                    <div class="card">
+                        <div class="img-hover">
+                            <img src="images/women5.jpg" class="card-img-top" alt="no image" loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-price">floral printed
+                                <br>
+                                ₹499
+                            </p>
+                            <a href="#"><span><button class="women-button">Buy</button></span></a>
+                            <a href="#"><span><button class="women-button">Add to Cart</button></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="women-collection-item">
+                    <div class="card">
+                        <div class="img-hover">
+                            <img src="images/women6.jpg" class="card-img-top" alt="no image" loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-price">floral printed
+                                <br>
+                                ₹699
+                            </p>
+                            <a href="#"><span><button class="women-button">Buy</button></span></a>
+                            <a href="#"><span><button class="women-button">Add to Cart</button></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------------end women collection-->
+
+    <!-------------------------footer----------------------------->
+
+    <section style="background-color: black;">
+        <div class="container">
+            <footer>
+                <div class="footer">
+                    <div class="row">
+                        <ul>
+                            <li><a href="">Contact us</a></li>
+                            <li><a href="">Our Services</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Terms & Conditions</a></li>
+                            <li><a href="">Career</a></li>
+                        </ul>
+                    </div>
+        
+                    <div class="footer-text text-center">
+                         Copyright © sxxrya - All rights reserved || Designed By: soorya narayanan
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
